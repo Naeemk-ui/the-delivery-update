@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+@theme {
+  /* Your Custom Brand Palette */
+  --color-primary: #FF7A00;
+  --color-primary-dark: #E66E00;
+  
+  --color-secondary: #0D1B2A;
+  --color-secondary-dark: #08121C;
+  
+  --color-accent-cyan: #14C8FF;
+  --color-accent-green: #22C55E;
+  
+  --color-neutral-background: #F8FAFC;
+  --color-neutral-subtle: #64748B;
+  --color-neutral-text: #111827;
+
+  /* Modern Card Radius */
+  --radius-2xl: 1rem;
+}
+
+body {
+  background-color: var(--color-neutral-background);
+  color: var(--color-neutral-text);
+  font-family: ui-sans-serif, system-ui, sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
