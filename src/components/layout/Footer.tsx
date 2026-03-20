@@ -128,11 +128,11 @@ export default function Footer() {
           
           {/* UPDATED LEGAL LINKS */}
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-3">
-            <a href="https://thedelivery.co.za/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</a>
-            <a href="https://thedelivery.co.za/terms-and-conditions" className="hover:text-white transition-colors">Terms & Conditions</a>
-            <a href="https://thedelivery.co.za/refund" className="hover:text-white transition-colors">Refund Policy</a>
-            <a href="https://thedelivery.co.za/shipping-policy" className="hover:text-white transition-colors">Shipping Policy</a>
-            <a href="https://thedelivery.co.za/cancelation" className="hover:text-white transition-colors">Cancellation Policy</a>
+            <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
+            <Link href="/terms-and-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link>
+            <Link href="/refund-policy" className="hover:text-white transition-colors">Refund Policy</Link>
+            <Link href="/shipping-policy" className="hover:text-white transition-colors">Shipping Policy</Link>
+            <Link href="/cancellation-policy" className="hover:text-white transition-colors">Cancellation Policy</Link>
           </div>
         </div>
 

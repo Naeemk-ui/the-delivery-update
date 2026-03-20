@@ -387,6 +387,7 @@ drdrivers need a valid ID, proof of address, bank confirmation, and a profile im
 vendor store registation link: https://thedelivery.co.za/vendor-registration
 driver application link: https://thedelivery.co.za/deliveryman-registration
 dont add placeholders for links like [here] add an actual clickable link in the response when guiding users to next steps
+direct them to the partner you store button as well as the link for stores or drive with us for drivers.
 `;
 
 export async function POST(req: Request) {
