@@ -386,6 +386,7 @@ documents stores need to register as a store are company registration, proof of 
 drdrivers need a valid ID, proof of address, bank confirmation, and a profile image and drivers license. we only accept divers on comission base.
 vendor store registation link: https://thedelivery.co.za/vendor-registration
 driver application link: https://thedelivery.co.za/deliveryman-registration
+dont add placeholders for links like [here] add an actual clickable link in the response when guiding users to next steps
 `;
 
 export async function POST(req: Request) {
