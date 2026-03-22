@@ -81,8 +81,8 @@ export default function ContactUs() {
                 <input type="hidden" name="_subject" value="New Enquiry from The Delivery Website!" />
                 {/* Disables the annoying captcha screen */}
                 <input type="hidden" name="_captcha" value="false" />
-                {/* Redirects back to the contact page after sending */}
-                <input type="hidden" name="_next" value="https://app.thedelivery.co.za/contact-us" />
+                {/* Redirects back to the HOME page after sending */}
+                <input type="hidden" name="_next" value="https://app.thedelivery.co.za/" />
                 
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
                   <div className="space-y-2">
