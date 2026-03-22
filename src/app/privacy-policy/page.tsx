@@ -43,7 +43,7 @@ export default function PrivacyPolicy() {
               <li>Process your orders, payments, and refunds.</li>
               <li>Facilitate the delivery of your orders by sharing necessary details (like your address and phone number) with our Merchant partners and delivery Drivers.</li>
               <li>Send you push notifications regarding your order status.</li>
-              <li>Improve our app performance, routing algorithms, and customer service.</li>
+              <li>Improve our app performance, routing algorithms, and customer service</li>
             </ul>
 
             <h2 className="text-xl font-bold text-secondary mt-8 mb-4">3. Disclosure of Your Information</h2>
