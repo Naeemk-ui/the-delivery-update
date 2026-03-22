@@ -90,7 +90,7 @@ export default function ContactUs() {
               <div>
                 <h3 className="font-bold text-secondary text-lg mb-1">Email Us</h3>
                 <p className="text-gray-500 text-sm mb-2">We'll respond within 24 hours.</p>
-                <a href="mailto:ecomminvest80@gmail.com" className="text-primary font-bold hover:underline break-all">ecomminvest80@gmail.com</a>
+                <a href="mailto:ecomminvest80@gmail.com" className="text-primary font-bold hover:underline break-all">hello@thedelivery.co.za</a>
               </div>
             </div>
 
