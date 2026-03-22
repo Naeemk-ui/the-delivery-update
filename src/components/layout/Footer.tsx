@@ -82,6 +82,7 @@ export default function Footer() {
             <h3 className="text-white font-bold mb-6 uppercase tracking-wider text-sm">Explore</h3>
             <ul className="space-y-4 text-sm">
               <li><Link href="/" className="hover:text-primary transition-colors">Home</Link></li>
+              <li><Link href="/about-us" className="hover:text-primary transition-colors">About Us</Link></li>
               <li><Link href="/categories" className="hover:text-primary transition-colors">Categories & Areas</Link></li>
               <li><Link href="/how-it-works" className="hover:text-primary transition-colors">How It Works</Link></li>
               <li><a href="https://shop.thedelivery.co.za" target="_blank" rel="noopener noreferrer" className="hover:text-primary transition-colors">Shop Now</a></li>
@@ -111,11 +112,16 @@ export default function Footer() {
                 <Phone size={18} className="text-primary shrink-0" />
                 <span>015 004 1681</span>
               </li>
-              <li className="flex items-center gap-3">
+              <li className="flex items-center gap-3 mb-2">
                 <Mail size={18} className="text-primary shrink-0" />
                 <a href="mailto:hello@thedelivery.co.za" className="hover:text-primary transition-colors">
                   hello@thedelivery.co.za
                 </a>
+              </li>
+              <li>
+                <Link href="/contact-us" className="inline-block mt-2 text-primary font-medium hover:text-white transition-colors border-b border-primary hover:border-white pb-0.5">
+                  Send us a message &rarr;
+                </Link>
               </li>
             </ul>
           </div>
@@ -126,7 +132,6 @@ export default function Footer() {
         <div className="pt-8 border-t border-gray-800 flex flex-col xl:flex-row justify-between items-center gap-6 text-xs text-gray-500">
           <p>&copy; {currentYear} The Delivery. All rights reserved.</p>
           
-          {/* UPDATED LEGAL LINKS */}
           <div className="flex flex-wrap justify-center gap-x-6 gap-y-3">
             <Link href="/privacy-policy" className="hover:text-white transition-colors">Privacy Policy</Link>
             <Link href="/terms-and-conditions" className="hover:text-white transition-colors">Terms & Conditions</Link>
